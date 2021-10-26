@@ -1,7 +1,7 @@
 SPARQL for RDF.rb
 ==================================
 
-This gem allows easy publication of a [SPARQL Service Description][SSD] for services using the [Ruby][] [SPARQL 1.0][] solution.
+This gem allows easy publication of a [SPARQL Service Description][SSD] for services using the [Ruby][] [SPARQL 1.1][] solution.
 
 Features
 --------
@@ -14,9 +14,9 @@ Features
 Dependencies
 ------------
 
-* [Ruby](http://ruby-lang.org/) (>= 1.8.7) or (>= 1.8.1 with [Backports][])
-* [RDF.rb](http://rubygems.org/gems/rdf) (>= 0.4.0)
-* [Spira](http://rubygems.org/gems/spira) (>= 0.0.12)
+* [Ruby](http://ruby-lang.org/) (>= 2.4)
+* [RDF.rb](http://rubygems.org/gems/rdf) (~> 3.1)
+* [Spira](http://rubygems.org/gems/spira) (~> 3.1)
 
 Installation
 ------------
@@ -41,36 +41,33 @@ Mailing List
 Author
 ------
 
-* [Gregg Kellogg](http://github.com/gkellogg) - <http://kellogg-assoc.com/>
+* [Gregg Kellogg](http://github.com/gkellogg) - <http://greggkellogg.net/>
 
 
-Contributing
-------------
-
+## Contributing
 * Do your best to adhere to the existing coding conventions and idioms.
 * Don't use hard tabs, and don't leave trailing whitespace on any line.
 * Do document every method you add using [YARD][] annotations. Read the
   [tutorial][YARD-GS] or just look at the existing code for examples.
-* Don't touch the `.gemspec`, `VERSION` or `AUTHORS` files. If you need to
+* Don't touch the `json-ld.gemspec`, `VERSION` or `AUTHORS` files. If you need to
   change them, do so on your private branch only.
 * Do feel free to add yourself to the `CREDITS` file and the corresponding
   list in the the `README`. Alphabetical order applies.
 * Do note that in order for us to merge any non-trivial changes (as a rule
   of thumb, additions larger than about 15 lines of code), we need an
-  explicit [public domain dedication][PDD] on record from you.
+  explicit [public domain dedication][PDD] on record from you,
+  which you will be asked to agree to on the first commit to a repo within the organization.
 
-License
--------
+## License
 
 This is free and unencumbered public domain software. For more information,
 see <http://unlicense.org/> or the accompanying {file:UNLICENSE} file.
 
-[Ruby]:             http://ruby-lang.org/
-[RDF]:              http://www.w3.org/RDF/
-[YARD]:             http://yardoc.org/
-[YARD-GS]:          http://rubydoc.info/docs/yard/file/docs/GettingStarted.md
-[PDD]:              http://lists.w3.org/Archives/Public/public-rdf-ruby/2010May/0013.html
-[SPARQL]:           http://en.wikipedia.org/wiki/SPARQL
-[SPARQL 1.0]:       http://www.w3.org/TR/rdf-sparql-query/
-[SPARQL 1.1]:       http://www.w3.org/TR/sparql11-query/
-[SSD]:              http://www.w3.org/TR/sparql11-service-description/
+[Ruby]:             https://ruby-lang.org/
+[RDF]:              https://www.w3.org/RDF/
+[YARD]:           https://yardoc.org/
+[YARD-GS]:        https://rubydoc.info/docs/yard/file/docs/GettingStarted.md
+[PDD]:            https://unlicense.org/#unlicensing-contributions
+[SPARQL]:           https://en.wikipedia.org/wiki/SPARQL
+[SPARQL 1.1]:       https://www.w3.org/TR/sparql11-query/
+[SSD]:              https://www.w3.org/TR/sparql11-service-description/

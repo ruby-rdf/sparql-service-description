@@ -1,48 +1,40 @@
-SPARQL for RDF.rb
-==================================
+# SPARQL for RDF.rb
 
 This gem allows easy publication of a [SPARQL Service Description][SSD] for services using the [Ruby][] [SPARQL 1.1][] solution.
 
-Features
---------
+## Features
 
 * 100% free and unencumbered [public domain](http://unlicense.org/) software.
 * Generate/access Service Description using Ruby object semantics.
 * Publish Service Description using any supported RDF serialization.
 * Useful for managing local datasets to describe SPARQL access points.
 
-Dependencies
-------------
+## Dependencies
 
-* [Ruby](http://ruby-lang.org/) (>= 2.4)
-* [RDF.rb](http://rubygems.org/gems/rdf) (~> 3.1)
-* [Spira](http://rubygems.org/gems/spira) (~> 3.1)
+* [Ruby](http://ruby-lang.org/) (>= 2.6)
+* [RDF.rb](http://rubygems.org/gems/rdf) (~> 3.2)
+* [Spira](http://rubygems.org/gems/spira) (~> 3.2)
 
-Installation
-------------
+## Installation
 
 The recommended installation method is via [RubyGems](http://rubygems.org/).
 To install the latest official release of the `SPARQL` gem, do:
 
     % [sudo] gem install sparql-service-description
 
-Download
---------
+## Download
 
 To get a local working copy of the development repository, do:
 
     % git clone git://github.com/gkellogg/sparql-service-description.git
 
-Mailing List
-------------
+## Mailing List
 
 * <http://lists.w3.org/Archives/Public/public-rdf-ruby/>
 
-Author
-------
+## Author
 
 * [Gregg Kellogg](http://github.com/gkellogg) - <http://greggkellogg.net/>
-
 
 ## Contributing
 * Do your best to adhere to the existing coding conventions and idioms.

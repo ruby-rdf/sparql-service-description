@@ -2,10 +2,14 @@ source "https://rubygems.org"
 
 gemspec
 
+gem "rdf",       git: "https://github.com/ruby-rdf/rdf",        branch: "develop"
+gem "spira",     git: "https://github.com/ruby-rdf/spira",      branch: "develop"
+
 group :develop do
-  gem "rdf-spec",       git: "https://github.com/ruby-rdf/rdf-spec",        branch: "develop"
-  gem "rdf-turtle",     git: "https://github.com/ruby-rdf/rdf-turtle",      branch: "develop"
-  gem "rdf-vocab",      git: "https://github.com/ruby-rdf/rdf-vocab",       branch: "develop"
+  gem "rdf-spec",   git: "https://github.com/ruby-rdf/rdf-spec",    branch: "develop"
+  gem "rdf-turtle", git: "https://github.com/ruby-rdf/rdf-turtle",  branch: "develop"
+  gem "rdf-vocab",  git: "https://github.com/ruby-rdf/rdf-vocab",   branch: "develop"
+  gem "rdf-isomorphic",  git: "https://github.com/ruby-rdf/rdf-isomorphic",   branch: "develop"
 end
 
 group :debug do

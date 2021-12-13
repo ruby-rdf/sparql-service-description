@@ -18,11 +18,11 @@ Gem::Specification.new do |spec|
   spec.files              = %w(AUTHORS README.md UNLICENSE VERSION) + Dir.glob('lib/**/*.rb')
   spec.require_paths      = %w(lib)
 
-  spec.required_ruby_version      = '>= 2.4'
-  spec.add_runtime_dependency     'rdf',             '~> 3.1'
-  spec.add_runtime_dependency     'spira',           '~> 3.0'
+  spec.required_ruby_version      = '>= 2.6'
+  spec.add_runtime_dependency     'rdf',             '~> 3.2'
+  spec.add_runtime_dependency     'spira',           '~> 3.2'
   spec.add_development_dependency 'yard' ,           '~> 0.9'
   spec.add_development_dependency 'rspec',           '~> 3.10'
-  spec.add_development_dependency 'rdf-spec',        '~> 3.1'
+  spec.add_development_dependency 'rdf-spec',        '~> 3.2'
   spec.post_install_message       = nil
 end

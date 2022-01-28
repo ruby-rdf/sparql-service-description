@@ -10,6 +10,13 @@ Gem::Specification.new do |spec|
   spec.license            = 'Unlicense'
   spec.summary            = "SPARQL Service Description for RDF.rb."
   spec.description        = spec.summary
+  gem.metadata           = {
+    "documentation_uri" => "https://gkellogg.github.io/sparql-service-description",
+    "bug_tracker_uri"   => "https://github.com/gkellogg/sparql-service-description/issues",
+    "homepage_uri"      => "https://github.com/gkellogg/sparql-service-description",
+    "mailing_list_uri"  => "https://lists.w3.org/Archives/Public/public-rdf-ruby/",
+    "source_code_uri"   => "https://github.com/gkellogg/sparql-service-description",
+  }
 
   spec.authors            = ['Gregg Kellogg']
   spec.email              = 'public-rdf-ruby@w3.org'

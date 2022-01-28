@@ -48,6 +48,7 @@ module SPARQL
           named_graphs.detect {|g| g.source == source && g.name == name}
         else
           default_graphs.detect {|g| g.source == source}
+        end
       end
       
       ##

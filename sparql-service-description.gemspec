@@ -6,7 +6,7 @@ Gem::Specification.new do |spec|
   spec.date               = File.mtime('VERSION').strftime('%Y-%m-%d')
 
   spec.name               = "sparql-service-description"
-  spec.homepage           = "https://github.com/gkellogg/sparql-service-description/"
+  spec.homepage           = "https://github.com/ruby-rdf/sparql-service-description/"
   spec.license            = 'Unlicense'
   spec.summary            = "SPARQL Service Description for RDF.rb."
   spec.description        = spec.summary
